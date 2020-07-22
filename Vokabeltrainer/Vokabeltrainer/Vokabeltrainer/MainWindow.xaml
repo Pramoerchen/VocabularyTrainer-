@@ -1,0 +1,15 @@
+﻿<Window x:Class="Vokabeltrainer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Vokabeltrainer"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel Margin="20,60,20,60">
+        <Label HorizontalAlignment="Center" TextBlock.FontSize="20">Menü</Label>
+        <Button Margin="10,40,10,0" TextBlock.FontSize="15" Click="Vokabel_Eingabe"> Vokabel eingabe</Button>
+        <Button Margin="10,30,10,0" TextBlock.FontSize="15" Click="Vokabeln_Lernen">Vokabeln lernen</Button>
+        <Button Margin="10,30,10,0" TextBlock.FontSize="15" Click="Verlassen">Verlassen</Button>
+    </StackPanel>
+</Window>

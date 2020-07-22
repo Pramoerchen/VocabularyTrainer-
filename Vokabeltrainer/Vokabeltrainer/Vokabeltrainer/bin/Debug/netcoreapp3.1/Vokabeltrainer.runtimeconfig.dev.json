@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Starc\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Starc\\.nuget\\packages"
+    ]
+  }
+}
