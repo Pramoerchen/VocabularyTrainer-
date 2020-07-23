@@ -22,11 +22,25 @@ namespace Vokabeltrainer
             InitializeComponent();
         }
 
+        void vokabel_schreiben()
+        {
+            //Vokabeln werden in .txt Datei / Datenbank (das müssen wir noch überlgen) eingetragen
+        }
+
         private void Zurück_Klick(object sender, RoutedEventArgs e)
         {
             MainWindow objMainWindow = new MainWindow(); // referenz auf das Fenster VokabelEingabe
             this.Visibility = Visibility.Hidden; //lässt das menü verschwinden
             objMainWindow.Show(); // wechselt zur ins "VokabelEingabe" fenster
+        }
+
+        
+
+        private void enter_voc_Click(object sender, RoutedEventArgs e)
+        {
+            
+            sprache_1_textbox.Clear();
+            sprache_2_textbox.Clear();
         }
     }
 }
