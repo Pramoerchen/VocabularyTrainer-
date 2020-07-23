@@ -69,7 +69,7 @@
         <TextBox x:Name="sprache_1_textbox"></TextBox>
         <Label Margin="10,40,10,0">Deutsch:</Label>
         <TextBox x:Name="sprache_2_textbox"></TextBox>
-        <Button Style="{DynamicResource RoundedButton}" x:Name="enter_voc" Click="enter_voc_Click" Margin="10,40,10,0" HorizontalAlignment="Center" Background="#FF82D663" Height="26" Width="80"> Bestätigen</Button>
-        <Button Margin="10,20,10,0" HorizontalAlignment="Center" Click="Zurück_Klick" Background="#FFEA4343">Zurück</Button>
+        <Button Style="{DynamicResource RoundedButton}" x:Name="enter_voc" Click="enter_voc_Click" Margin="10,30,10,0" HorizontalAlignment="Center" Background="#FF82D663" Height="26" Width="80">Bestätigen</Button>
+        <Button Style="{DynamicResource RoundedButton}" Click="Zurück_Klick" Background="#FFEA4343" Margin="10,20,10,0" HorizontalAlignment="Center" Height="26" Width="80" Content="Fertig"/>
     </StackPanel>
 </Window>
