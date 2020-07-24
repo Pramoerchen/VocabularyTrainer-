@@ -9,6 +9,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using System.IO;
 
 namespace Vokabeltrainer
 {
@@ -24,7 +25,12 @@ namespace Vokabeltrainer
 
         void vokabel_schreiben()
         {
-            //Vokabeln werden in .txt Datei / Datenbank (das müssen wir noch überlgen) eingetragen
+
+            StreamWriter streamWriter = new StreamWriter("Wörterbücher\\Deutsch+Englisch.txt"); //Bitte Path ändern!!!
+
+            streamWriter.WriteLine("Test");
+
+           
         }
 
         private void Zurück_Klick(object sender, RoutedEventArgs e)
@@ -41,6 +47,7 @@ namespace Vokabeltrainer
             
             sprache_1_textbox.Clear();
             sprache_2_textbox.Clear();
+            vokabel_schreiben();
         }
     }
 }
