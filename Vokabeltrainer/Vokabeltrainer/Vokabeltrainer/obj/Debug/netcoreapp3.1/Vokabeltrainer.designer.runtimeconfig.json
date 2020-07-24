@@ -6,8 +6,8 @@
       "version": "3.1.0"
     },
     "additionalProbingPaths": [
-      "C:\\Users\\Levi\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\Levi\\.nuget\\packages"
+      "C:\\Users\\Starc\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Starc\\.nuget\\packages"
     ],
     "configProperties": {
       "Microsoft.NETCore.DotNetHostPolicy.SetAppPaths": true

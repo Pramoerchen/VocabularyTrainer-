@@ -1,4 +1,4 @@
-﻿using System;
+﻿ using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Windows;
@@ -26,11 +26,14 @@ namespace Vokabeltrainer
         void vokabel_schreiben()
         {
 
-            StreamWriter streamWriter = new StreamWriter("Wörterbücher\\Deutsch+Englisch.txt"); //Bitte Path ändern!!!
+            StreamWriter sW = new StreamWriter(@"C:\Users\Starc\Documents\GitHub\VocabularyTrainer-\Vokabeltrainer\Vokabeltrainer\Vokabeltrainer\Wörterbücher\Deutsch+Englisch.txt",true); //Bitte Path ändern!!!
 
-            streamWriter.WriteLine("Test");
+            sW.WriteLine("Test");
 
-           
+            sW.Close();
+
+
+
         }
 
         private void Zurück_Klick(object sender, RoutedEventArgs e)
