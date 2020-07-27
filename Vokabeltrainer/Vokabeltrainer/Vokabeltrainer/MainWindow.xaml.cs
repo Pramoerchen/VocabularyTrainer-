@@ -38,9 +38,17 @@ namespace Vokabeltrainer
 
         }
 
+        private void Vokabel_Test(object sender, RoutedEventArgs e)
+        {
+            VokabelTest objVokabelTest = new VokabelTest(); // referenz auf das Fenster VokabelTest
+            this.Visibility = Visibility.Hidden; //lässt das menü verschwinden
+            objVokabelTest.Show(); // wechselt zur ins "VokabelTest" fenster
+        }
+
         private void Verlassen(object sender, RoutedEventArgs e)
         {
             Application.Current.Shutdown(); // beendet die anwendung
         }
+
     }
 }

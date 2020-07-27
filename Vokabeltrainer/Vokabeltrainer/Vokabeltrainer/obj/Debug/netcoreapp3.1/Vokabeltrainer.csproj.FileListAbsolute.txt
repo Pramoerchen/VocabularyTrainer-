@@ -57,3 +57,5 @@ C:\Users\Levi\Documents\GitHub\VocabularyTrainer-\Vokabeltrainer\Vokabeltrainer\
 C:\Users\Levi\Documents\GitHub\VocabularyTrainer-\Vokabeltrainer\Vokabeltrainer\Vokabeltrainer\obj\Debug\netcoreapp3.1\Vokabeltrainer.dll
 C:\Users\Levi\Documents\GitHub\VocabularyTrainer-\Vokabeltrainer\Vokabeltrainer\Vokabeltrainer\obj\Debug\netcoreapp3.1\Vokabeltrainer.pdb
 C:\Users\Levi\Documents\GitHub\VocabularyTrainer-\Vokabeltrainer\Vokabeltrainer\Vokabeltrainer\obj\Debug\netcoreapp3.1\Vokabeltrainer.genruntimeconfig.cache
+C:\Users\Starc\Documents\GitHub\VocabularyTrainer-\Vokabeltrainer\Vokabeltrainer\Vokabeltrainer\obj\Debug\netcoreapp3.1\VokabelTest.g.cs
+C:\Users\Starc\Documents\GitHub\VocabularyTrainer-\Vokabeltrainer\Vokabeltrainer\Vokabeltrainer\obj\Debug\netcoreapp3.1\VokabelTest.baml

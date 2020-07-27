@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1
 C:\Users\Starc\Documents\GitHub\VocabularyTrainer-\Vokabeltrainer\Vokabeltrainer\Vokabeltrainer\App.xaml
-21019306829
+3983726518
 
-4632166826
+51095974278
 1921654412462
-MainWindow.xaml;VokabelEingabe.xaml;
+MainWindow.xaml;VokabelEingabe.xaml;VokabelTest.xaml;
 
 False
 
