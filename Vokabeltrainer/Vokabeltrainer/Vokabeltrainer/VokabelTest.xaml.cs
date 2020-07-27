@@ -24,7 +24,7 @@ namespace Vokabeltrainer
             InitializeComponent();
         }
 
-        private void Btn_Bestätigen(object sender, RoutedEventArgs e)
+        private void Event_Bestätigen(object sender, RoutedEventArgs e)
         {
             VokabelnHolen();
         }
@@ -48,10 +48,28 @@ namespace Vokabeltrainer
             if (rndInt % 2!= 0) // Dann deutsch
             {
                 txt_Eingabe2.Text = SR.ReadLine();
+                Btn_Bestätigen.IsEnabled = false;
+                for (int i = 0; i < rndInt -1; i++)
+                {
+                    SR.ReadLine();
+                }
+                if (txt_Eingabe1.Text == SR.ReadLine())
+                {
+                    Btn_Bestätigen.IsEnabled = true;
+                }
             }
             else
             {
                 txt_Eingabe1.Text = SR.ReadLine();
+                Btn_Bestätigen.IsEnabled = false;
+                for (int i = 0; i < rndInt +1; i++)
+                {
+                    SR.ReadLine();
+                }
+                if (txt_Eingabe2.Text == SR.ReadLine())
+                {
+                    Btn_Bestätigen.IsEnabled = true;
+                }
             }
         }
     }

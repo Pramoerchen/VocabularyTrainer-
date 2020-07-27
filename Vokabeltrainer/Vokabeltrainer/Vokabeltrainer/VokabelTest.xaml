@@ -12,7 +12,7 @@
         <TextBox x:Name="txt_Eingabe1"></TextBox>
         <Label Margin="10,40,10,0">Deutsch:</Label>
         <TextBox x:Name="txt_Eingabe2"></TextBox>
-        <Button HorizontalAlignment="Center" Margin="10" Click="Btn_Bestätigen">Bestätigen</Button>
+        <Button HorizontalAlignment="Center" Margin="10" Click="Event_Bestätigen" x:Name="Btn_Bestätigen">Bestätigen</Button>
         <Button HorizontalAlignment="Center" Margin="10" Click="Btn_Zurück" >Zurück</Button>
     </StackPanel>
 </Window>
