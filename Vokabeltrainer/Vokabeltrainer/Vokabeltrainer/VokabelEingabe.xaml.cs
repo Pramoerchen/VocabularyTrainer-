@@ -28,7 +28,8 @@ namespace Vokabeltrainer
 
             StreamWriter sW = new StreamWriter(@"C:\Users\Starc\Documents\GitHub\VocabularyTrainer-\Vokabeltrainer\Vokabeltrainer\Vokabeltrainer\Wörterbücher\Deutsch+Englisch.txt",true); //Bitte Path ändern!!!
 
-            sW.WriteLine("Test");
+            sW.WriteLine(sprache_1_textbox.Text);
+            sW.WriteLine(sprache_2_textbox.Text);
 
             sW.Close();
 
@@ -47,10 +48,10 @@ namespace Vokabeltrainer
 
         private void enter_voc_Click(object sender, RoutedEventArgs e)
         {
-            
+            vokabel_schreiben();
             sprache_1_textbox.Clear();
             sprache_2_textbox.Clear();
-            vokabel_schreiben();
+            
         }
     }
 }
