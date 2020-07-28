@@ -6,7 +6,7 @@ Dafür Sorgen, dass 2 Vokabeln nicht direkt hintereinander abgefragt werden. Auc
 1. Deutsches Wort: Apfel; Englisches Wort: (Eingabe)                                                                                    |
 2. Deutsches Wort: (Eingabe); Englisches Wort: Apple                                                                                    |
 =========================================================================================================================================
-
+Erledigt ✅
 
 
 =========================================================================================================================================
@@ -15,18 +15,22 @@ Sprache 1 -> Sprache 2                                                          
 Sprache 2 -> Sprache 1                                                                                                                  |                                                                      
 Sprache 1 -> Sprache 2 und Sprache 2 -> Sprache 1 (Das haben wir schon)                                                                 |
 =========================================================================================================================================
-Darum möchteich mich kümmern (Levi)
+Erledigt ✅
 
 
 =========================================================================================================================================
 Andere Sprachen. 
 Ich stelle mir das so vor:
-Man klickt auf Vokabeln Testen / Vokabel eingabe. Dann erscheint ein fesnter in dem man "Abbrechen" klicken oder sich für
-eine Sprache entscheiden kann. Falls zu dieser "Sprachkombination" noch keine Datei exestiert wird sie erstellt (Das passiert automatisch).
+Man klickt auf Vokabeln Testen / Vokabel eingabe. Dann erscheint ein fesnter in dem man sich für
+eine Sprache entscheiden kann. 
+=========================================================================================================================================
+Erledigt ✅
+
+=========================================================================================================================================
+Falls zu einer "Sprachkombination" noch keine Datei exestiert wird sie erstellt (Das passiert automatisch).
 Dazu muss aber auch überprüft werden, dass es noch keine Datei mit umgetauschten Dateinamen gibt. Bsp:
 Wenn die Datei "Deutsch+Englisch" schon exestiert soll keine Datei mit dem Namen "Englisch+Deutsch" angelegt werden
 =========================================================================================================================================
-
 
 =========================================================================================================================================
 Statistik hinzufügen
