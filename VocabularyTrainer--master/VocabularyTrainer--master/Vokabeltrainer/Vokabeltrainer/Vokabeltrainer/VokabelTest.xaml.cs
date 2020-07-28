@@ -20,7 +20,7 @@ namespace Vokabeltrainer
     public partial class VokabelTest : Window
     {
         public string richtige_vokabel;
-        public int vorherigeRndZeile = 0;
+        public int vorherigeRndZeile;
 
         Dictionary<string, string> andere_sprache = new Dictionary<string, string>();
 
