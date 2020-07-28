@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "n9ofqMg/hyiTqWao3VAqj/puQpI6wA+Kn/c3yXWeypo+EAiOSVNnW66F8oT07GlxGhxDRSDy5oUs8HfsciCK1Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Levi\\Documents\\GitHub\\VocabularyTrainer-\\Vokabeltrainer\\Vokabeltrainer\\Vokabeltrainer\\Vokabeltrainer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Levi\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}
