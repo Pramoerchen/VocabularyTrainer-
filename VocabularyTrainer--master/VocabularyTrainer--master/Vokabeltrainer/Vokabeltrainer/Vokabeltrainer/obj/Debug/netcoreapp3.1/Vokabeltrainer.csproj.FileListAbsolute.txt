@@ -105,3 +105,7 @@ C:\Users\Starc\Documents\GitHub\VocabularyTrainer-\VocabularyTrainer--master\Voc
 C:\Users\Starc\Documents\GitHub\VocabularyTrainer-\VocabularyTrainer--master\VocabularyTrainer--master\Vokabeltrainer\Vokabeltrainer\Vokabeltrainer\obj\Debug\netcoreapp3.1\Vokabeltrainer.AssemblyInfo.cs
 C:\Users\Starc\Documents\GitHub\VocabularyTrainer-\VocabularyTrainer--master\VocabularyTrainer--master\Vokabeltrainer\Vokabeltrainer\Vokabeltrainer\obj\Debug\netcoreapp3.1\Vokabeltrainer.dll
 C:\Users\Starc\Documents\GitHub\VocabularyTrainer-\VocabularyTrainer--master\VocabularyTrainer--master\Vokabeltrainer\Vokabeltrainer\Vokabeltrainer\obj\Debug\netcoreapp3.1\Vokabeltrainer.pdb
+C:\Users\Starc\Documents\GitHub\VocabularyTrainer-\VocabularyTrainer--master\VocabularyTrainer--master\Vokabeltrainer\Vokabeltrainer\Vokabeltrainer\obj\Debug\netcoreapp3.1\DeutschZuEnglisch.g.cs
+C:\Users\Starc\Documents\GitHub\VocabularyTrainer-\VocabularyTrainer--master\VocabularyTrainer--master\Vokabeltrainer\Vokabeltrainer\Vokabeltrainer\obj\Debug\netcoreapp3.1\EnglischZuDeutsch.g.cs
+C:\Users\Starc\Documents\GitHub\VocabularyTrainer-\VocabularyTrainer--master\VocabularyTrainer--master\Vokabeltrainer\Vokabeltrainer\Vokabeltrainer\obj\Debug\netcoreapp3.1\DeutschZuEnglisch.baml
+C:\Users\Starc\Documents\GitHub\VocabularyTrainer-\VocabularyTrainer--master\VocabularyTrainer--master\Vokabeltrainer\Vokabeltrainer\Vokabeltrainer\obj\Debug\netcoreapp3.1\EnglischZuDeutsch.baml

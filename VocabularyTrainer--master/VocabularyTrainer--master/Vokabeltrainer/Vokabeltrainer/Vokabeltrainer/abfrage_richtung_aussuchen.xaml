@@ -11,10 +11,10 @@
             <ColumnDefinition Width="83*"/>
             <ColumnDefinition Width="717*"/>
         </Grid.ColumnDefinitions>
-        <RadioButton Content="Englisch -&gt; Deutsch" Grid.Column="1" HorizontalAlignment="Left" Margin="207,292,0,0" VerticalAlignment="Top"/>
-        <RadioButton Content="Deutsch &lt;-&gt; Englisch" Grid.Column="1" HorizontalAlignment="Left" Margin="207,331,0,0" VerticalAlignment="Top"/>
-        <RadioButton Content="Deutsch -&gt; Englisch" Grid.Column="1" HorizontalAlignment="Left" Margin="207,257,0,0" VerticalAlignment="Top"/>
-        <Button Content="Afragen" Grid.Column="1" HorizontalAlignment="Left" Margin="231,371,0,0" VerticalAlignment="Top" Height="34" Width="77"/>
+        <RadioButton Content="Englisch -&gt; Deutsch" Grid.Column="1" HorizontalAlignment="Left" Margin="207,292,0,0" VerticalAlignment="Top" x:Name="rdobtn_EngZuDeu" />
+        <RadioButton Content="Deutsch &lt;-&gt; Englisch" Grid.Column="1" HorizontalAlignment="Left" Margin="207,331,0,0" VerticalAlignment="Top" x:Name="rdobtn_DeuRndEng" />
+        <RadioButton Content="Deutsch -&gt; Englisch" Grid.Column="1" HorizontalAlignment="Left" Margin="207,257,0,0" VerticalAlignment="Top" x:Name="rdobtn_DeuZuEng" />
+        <Button Content="Abragen" Grid.Column="1" HorizontalAlignment="Left" Margin="231,371,0,0" VerticalAlignment="Top" Height="34" Width="77" Click="event_Abfrage" x:Name="btn_Abrage"/>
 
     </Grid>
 </Window>

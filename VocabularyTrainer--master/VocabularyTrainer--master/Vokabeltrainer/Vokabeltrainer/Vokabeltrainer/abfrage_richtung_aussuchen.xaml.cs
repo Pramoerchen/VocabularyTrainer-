@@ -21,5 +21,27 @@ namespace Vokabeltrainer
         {
             InitializeComponent();
         }
+
+        private void event_Abfrage(object sender, RoutedEventArgs e)
+        {
+            if(rdobtn_DeuRndEng.IsChecked == true)
+            {
+                VokabelTest objVokabelTest = new VokabelTest(); // referenz auf das Fenster VokabelEingabe
+                this.Visibility = Visibility.Hidden; //lässt das menü verschwinden
+                objVokabelTest.Show(); // wechselt VokabelTest ins "VokabelEingabe" fenster
+            }
+            if(rdobtn_DeuZuEng.IsChecked == true)
+            {
+                DeutschZuEnglisch objDeutschZuEnglisch = new DeutschZuEnglisch(); // referenz auf das Fenster VokabelEingabe
+                this.Visibility = Visibility.Hidden; //lässt das menü verschwinden
+                objDeutschZuEnglisch.Show(); // wechselt VokabelTest ins "VokabelEingabe" fenster
+            }
+            if(rdobtn_EngZuDeu.IsChecked == true)
+            {
+                EnglischZuDeutsch objEnglischZuDeutsch = new EnglischZuDeutsch(); // referenz auf das Fenster VokabelEingabe
+                this.Visibility = Visibility.Hidden; //lässt das menü verschwinden
+                objEnglischZuDeutsch.Show(); // wechselt VokabelTest ins "VokabelEingabe" fenster
+            }
+        }
     }
 }
