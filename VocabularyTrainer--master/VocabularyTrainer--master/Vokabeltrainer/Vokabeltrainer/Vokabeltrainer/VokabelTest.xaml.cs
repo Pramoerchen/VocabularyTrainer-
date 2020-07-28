@@ -20,6 +20,7 @@ namespace Vokabeltrainer
     public partial class VokabelTest : Window
     {
         public string richtige_vokabel;
+        public int vorherigeRndZeile = 0;
 
         Dictionary<string, string> andere_sprache = new Dictionary<string, string>();
 
@@ -71,6 +72,14 @@ namespace Vokabeltrainer
             var Rnd = new Random();
             int rndInt = Rnd.Next(0, 2);
             int rndInt2 = Rnd.Next(1, maxZeilenAnzahl+1);
+            if(rndInt2 == vorherigeRndZeile)//überprüft ob es die selbe Zeile von der vorherigen abfrage ist wenn ja wird solange ne neue rnd zahl gesucht bis es eine neue ist.
+            {
+                do
+                {
+                    rndInt2 = Rnd.Next(1, maxZeilenAnzahl + 1);
+                } while (rndInt2 == vorherigeRndZeile);
+                vorherigeRndZeile = rndInt2;
+            }
             string sprache_1_vokabel = ""; // Der Variable muss ein Wert zugeweisen werden, da sonst ein Fehler erscheint
             string sprache_2_vokabel = "";
             string zeile;
