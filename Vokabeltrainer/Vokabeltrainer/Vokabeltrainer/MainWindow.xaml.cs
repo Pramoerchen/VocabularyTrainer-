@@ -20,6 +20,8 @@ namespace Vokabeltrainer
     /// </summary>
     public partial class MainWindow : Window
     {
+        
+        
         public MainWindow()
         {
             InitializeComponent();
@@ -27,7 +29,7 @@ namespace Vokabeltrainer
 
         private void Vokabel_Eingabe(object sender, RoutedEventArgs e)
         {
-            VokabelEingabe objVokabelEingabe = new VokabelEingabe(); // referenz auf das Fenster VokabelEingabe
+            sprache_fuer_eingabe_aendern objVokabelEingabe = new sprache_fuer_eingabe_aendern(); // referenz auf das Fenster VokabelEingabe
             this.Visibility = Visibility.Hidden; //lässt das menü verschwinden
             objVokabelEingabe.Show(); // wechselt zur ins "VokabelEingabe" fenster
 

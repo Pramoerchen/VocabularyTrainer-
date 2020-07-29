@@ -11,6 +11,8 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using System.IO;
 
+
+
 namespace Vokabeltrainer
 {
     /// <summary>
@@ -18,6 +20,8 @@ namespace Vokabeltrainer
     /// </summary>
     public partial class VokabelEingabe : Window
     {
+
+        StreamWriter sW;
         public VokabelEingabe()
         {
             InitializeComponent();
@@ -26,7 +30,20 @@ namespace Vokabeltrainer
         void vokabel_schreiben()
         {
 
-            StreamWriter sW = new StreamWriter(@"..\..\..\Wörterbücher\Deutsch+Englisch.txt",true); 
+            
+            
+            
+            if (File.Exists(sprache_fuer_eingabe_aendern.pfad_1))
+            {
+                sW = new StreamWriter(sprache_fuer_eingabe_aendern.pfad_1, true);
+            }
+
+            else
+            {
+                sW = new StreamWriter(sprache_fuer_eingabe_aendern.pfad_2, true);
+            }
+
+             
 
             sW.WriteLine(sprache_2_textbox.Text+"/"+sprache_1_textbox.Text);
             

@@ -2,3 +2,4 @@ Apfel/Apple
 Auto/Car
 Banane/Banana
 Kind/Child
+auto/Car

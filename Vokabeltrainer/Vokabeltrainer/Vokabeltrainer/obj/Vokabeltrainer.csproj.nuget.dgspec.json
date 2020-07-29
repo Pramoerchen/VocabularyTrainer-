@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Starc\\Documents\\GitHub\\VocabularyTrainer-\\Vokabeltrainer\\Vokabeltrainer\\Vokabeltrainer\\Vokabeltrainer.csproj": {}
+    "C:\\Users\\Praktikant\\Desktop\\Vokabeltrainer\\VocabularyTrainer--master\\VocabularyTrainer--master\\VocabularyTrainer--master\\Vokabeltrainer\\Vokabeltrainer\\Vokabeltrainer\\Vokabeltrainer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Starc\\Documents\\GitHub\\VocabularyTrainer-\\Vokabeltrainer\\Vokabeltrainer\\Vokabeltrainer\\Vokabeltrainer.csproj": {
+    "C:\\Users\\Praktikant\\Desktop\\Vokabeltrainer\\VocabularyTrainer--master\\VocabularyTrainer--master\\VocabularyTrainer--master\\Vokabeltrainer\\Vokabeltrainer\\Vokabeltrainer\\Vokabeltrainer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Starc\\Documents\\GitHub\\VocabularyTrainer-\\Vokabeltrainer\\Vokabeltrainer\\Vokabeltrainer\\Vokabeltrainer.csproj",
+        "projectUniqueName": "C:\\Users\\Praktikant\\Desktop\\Vokabeltrainer\\VocabularyTrainer--master\\VocabularyTrainer--master\\VocabularyTrainer--master\\Vokabeltrainer\\Vokabeltrainer\\Vokabeltrainer\\Vokabeltrainer.csproj",
         "projectName": "Vokabeltrainer",
-        "projectPath": "C:\\Users\\Starc\\Documents\\GitHub\\VocabularyTrainer-\\Vokabeltrainer\\Vokabeltrainer\\Vokabeltrainer\\Vokabeltrainer.csproj",
-        "packagesPath": "C:\\Users\\Starc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Starc\\Documents\\GitHub\\VocabularyTrainer-\\Vokabeltrainer\\Vokabeltrainer\\Vokabeltrainer\\obj\\",
+        "projectPath": "C:\\Users\\Praktikant\\Desktop\\Vokabeltrainer\\VocabularyTrainer--master\\VocabularyTrainer--master\\VocabularyTrainer--master\\Vokabeltrainer\\Vokabeltrainer\\Vokabeltrainer\\Vokabeltrainer.csproj",
+        "packagesPath": "C:\\Users\\Praktikant\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Praktikant\\Desktop\\Vokabeltrainer\\VocabularyTrainer--master\\VocabularyTrainer--master\\VocabularyTrainer--master\\Vokabeltrainer\\Vokabeltrainer\\Vokabeltrainer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Starc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Praktikant\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,7 +55,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

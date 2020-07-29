@@ -136,9 +136,5 @@ C:\Users\Praktikant\Desktop\Vokabeltrainer\VocabularyTrainer--master\VocabularyT
 C:\Users\Praktikant\Desktop\Vokabeltrainer\VocabularyTrainer--master\VocabularyTrainer--master\VocabularyTrainer--master\Vokabeltrainer\Vokabeltrainer\Vokabeltrainer\obj\Debug\netcoreapp3.1\Vokabeltrainer.AssemblyInfo.cs
 C:\Users\Praktikant\Desktop\Vokabeltrainer\VocabularyTrainer--master\VocabularyTrainer--master\VocabularyTrainer--master\Vokabeltrainer\Vokabeltrainer\Vokabeltrainer\obj\Debug\netcoreapp3.1\Vokabeltrainer.dll
 C:\Users\Praktikant\Desktop\Vokabeltrainer\VocabularyTrainer--master\VocabularyTrainer--master\VocabularyTrainer--master\Vokabeltrainer\Vokabeltrainer\Vokabeltrainer\obj\Debug\netcoreapp3.1\Vokabeltrainer.pdb
-C:\Users\Starc\Documents\GitHub\VocabularyTrainer-\Vokabeltrainer\Vokabeltrainer\Vokabeltrainer\obj\Debug\netcoreapp3.1\abfrage_richtung_aussuchen.g.cs
-C:\Users\Starc\Documents\GitHub\VocabularyTrainer-\Vokabeltrainer\Vokabeltrainer\Vokabeltrainer\obj\Debug\netcoreapp3.1\DeutschZuEnglisch.g.cs
-C:\Users\Starc\Documents\GitHub\VocabularyTrainer-\Vokabeltrainer\Vokabeltrainer\Vokabeltrainer\obj\Debug\netcoreapp3.1\EnglischZuDeutsch.g.cs
-C:\Users\Starc\Documents\GitHub\VocabularyTrainer-\Vokabeltrainer\Vokabeltrainer\Vokabeltrainer\obj\Debug\netcoreapp3.1\abfrage_richtung_aussuchen.baml
-C:\Users\Starc\Documents\GitHub\VocabularyTrainer-\Vokabeltrainer\Vokabeltrainer\Vokabeltrainer\obj\Debug\netcoreapp3.1\DeutschZuEnglisch.baml
-C:\Users\Starc\Documents\GitHub\VocabularyTrainer-\Vokabeltrainer\Vokabeltrainer\Vokabeltrainer\obj\Debug\netcoreapp3.1\EnglischZuDeutsch.baml
+C:\Users\Praktikant\Desktop\Vokabeltrainer\VocabularyTrainer--master\VocabularyTrainer--master\VocabularyTrainer--master\Vokabeltrainer\Vokabeltrainer\Vokabeltrainer\obj\Debug\netcoreapp3.1\sprache_fuer_eingabe_aendern.g.cs
+C:\Users\Praktikant\Desktop\Vokabeltrainer\VocabularyTrainer--master\VocabularyTrainer--master\VocabularyTrainer--master\Vokabeltrainer\Vokabeltrainer\Vokabeltrainer\obj\Debug\netcoreapp3.1\sprache_fuer_eingabe_aendern.baml

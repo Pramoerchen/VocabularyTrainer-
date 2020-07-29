@@ -19,7 +19,7 @@ namespace Vokabeltrainer
     {
         public List<string> sprachen = new List<string>()
         {
-            "Französisch", "Spanisch" // Sprachen können hier einfach ergänzt werden Deutsch und Englisch sind automatisch dabei
+            "Französisch", "Spanisch", "Latein" // Sprachen können hier einfach ergänzt werden Deutsch und Englisch sind automatisch dabei
         }; 
         
         public abfrage_richtung_aussuchen()
@@ -63,20 +63,20 @@ namespace Vokabeltrainer
         {
 
             var selected_item = sprache_1_selector.SelectedItem;
-            var test_var = rdobtn_DeuZuEng.Content.ToString().Split(" -> ");
+            var beide_sprachen = rdobtn_DeuZuEng.Content.ToString().Split(" -> ");
             
 
             
             sprache_2_selector.Items.Remove(selected_item);
 
-            if (!sprache_1_selector.Items.Contains(test_var[0])) 
+            if (!sprache_1_selector.Items.Contains(beide_sprachen[0])) 
             {
-                sprache_1_selector.Items.Add(test_var[0]);
+                sprache_1_selector.Items.Add(beide_sprachen[0]);
             }
 
-            if (!sprache_2_selector.Items.Contains(test_var[0]))
+            if (!sprache_2_selector.Items.Contains(beide_sprachen[0]))
             {
-                sprache_2_selector.Items.Add(test_var[0]);
+                sprache_2_selector.Items.Add(beide_sprachen[0]);
             }
 
 
@@ -84,9 +84,9 @@ namespace Vokabeltrainer
             
 
 
-            rdobtn_DeuZuEng.Content = selected_item + " -> " + test_var[1];
-            rdobtn_EngZuDeu.Content = selected_item + " <- " + test_var[1];
-            rdobtn_DeuRndEng.Content = selected_item + " <-> " + test_var[1];
+            rdobtn_DeuZuEng.Content = selected_item + " -> " + beide_sprachen[1];
+            rdobtn_EngZuDeu.Content = selected_item + " <- " + beide_sprachen[1];
+            rdobtn_DeuRndEng.Content = selected_item + " <-> " + beide_sprachen[1];
 
 
 

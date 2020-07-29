@@ -67,7 +67,7 @@ namespace Vokabeltrainer
             txt_Eingabe1.Clear();
             txt_Eingabe2.Clear();
 
-            StreamReader SR = new StreamReader(@"..\..\..\Wörterbücher\Deutsch+Englisch.txt");
+            StreamReader SR = new StreamReader(@"..\..\..\Wörterbücher\Deutsch+Englisch.txt"); // Das muss noch geändert werden
             int maxZeilenAnzahl = File.ReadLines(@"..\..\..\Wörterbücher\Deutsch+Englisch.txt").Count(); // enthält die zeilen anzahl
             var Rnd = new Random();
             int rndInt = Rnd.Next(0, 2);
