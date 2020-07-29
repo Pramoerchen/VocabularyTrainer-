@@ -33,16 +33,14 @@ namespace Vokabeltrainer
 
         }
 
-        private void Vokabeln_Lernen(object sender, RoutedEventArgs e)
-        {
-
-        }
+        
 
         private void Vokabel_Test(object sender, RoutedEventArgs e)
         {
-            VokabelTest objVokabelTest = new VokabelTest(); // referenz auf das Fenster VokabelTest
+            abfrage_richtung_aussuchen objabfrage_richting = new abfrage_richtung_aussuchen(); // referenz auf das Fenster VokabelTest
+
             this.Visibility = Visibility.Hidden; //lässt das menü verschwinden
-            objVokabelTest.Show(); // wechselt zur ins "VokabelTest" fenster
+            objabfrage_richting.Show(); // wechselt zur ins "VokabelTest" fenster
         }
 
         private void Verlassen(object sender, RoutedEventArgs e)

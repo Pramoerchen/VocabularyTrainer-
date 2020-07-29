@@ -1,11 +1,11 @@
-﻿<Window x:Class="Vokabeltrainer.VokabelTest"
+﻿<Window x:Class="Vokabeltrainer.DeutschZuEnglisch"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Vokabeltrainer"
         mc:Ignorable="d"
-        Title="Window1" Height="450" Width="800">
+        Title="DeutschZuEnglisch" Height="450" Width="800">
     <StackPanel Margin="20,50,20,50">
         <Label x:Name="uerberschrift" HorizontalAlignment="Center" TextBlock.FontSize="20">Vokabel Test</Label>
         <Label Margin="10,40,10,0">Englisch:</Label>

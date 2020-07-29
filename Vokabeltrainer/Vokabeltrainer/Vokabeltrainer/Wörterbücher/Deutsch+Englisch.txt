@@ -1,6 +1,4 @@
-Hello
-Hallo
-Door
-Tür
-Dog
-Hund
+Apfel/Apple
+Auto/Car
+Banane/Banana
+Kind/Child

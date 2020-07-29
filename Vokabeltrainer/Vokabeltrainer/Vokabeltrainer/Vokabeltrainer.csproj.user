@@ -7,6 +7,15 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="abfrage_richtung_aussuchen.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="DeutschZuEnglisch.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EnglischZuDeutsch.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="VokabelEingabe.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -15,6 +24,15 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="abfrage_richtung_aussuchen.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="DeutschZuEnglisch.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EnglischZuDeutsch.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>

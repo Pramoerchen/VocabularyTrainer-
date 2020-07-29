@@ -1,0 +1,38 @@
+﻿<Window x:Class="Vokabeltrainer.abfrage_richtung_aussuchen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Vokabeltrainer"
+        mc:Ignorable="d"
+        Title="abfrage_richtung_aussuchen" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="53*"/>
+            <RowDefinition Height="9*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="83*"/>
+            <ColumnDefinition Width="717*"/>
+        </Grid.ColumnDefinitions>
+        <RadioButton Content="Deutsch &lt;- Englisch" Grid.Column="1" HorizontalAlignment="Left" Margin="207,292,0,0" VerticalAlignment="Top" x:Name="rdobtn_EngZuDeu" />
+        <RadioButton Content="Deutsch &lt;-&gt; Englisch" Grid.Column="1" HorizontalAlignment="Left" Margin="207,331,0,0" VerticalAlignment="Top" x:Name="rdobtn_DeuRndEng" />
+        <RadioButton Content="Deutsch -&gt; Englisch" Grid.Column="1" HorizontalAlignment="Left" Margin="207,257,0,0" VerticalAlignment="Top" x:Name="rdobtn_DeuZuEng" />
+        <Button Content="Abragen" Grid.Column="1" HorizontalAlignment="Left" Margin="231,371,0,0" VerticalAlignment="Top" Height="34" Width="77" Click="event_Abfrage" x:Name="btn_Abrage" Grid.RowSpan="2"/>
+        <ListView x:Name="sprache_1_selector" Margin="0,104,545,64" SelectionChanged="sprache_1_selector_SelectionChanged" Grid.Column="1">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <ListView x:Name="sprache_2_selector" Margin="462,104,83,64" Grid.Column="1" SelectionChanged="sprache_2_selector_SelectionChanged">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+
+    </Grid>
+</Window>
