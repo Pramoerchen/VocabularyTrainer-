@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Praktikant\\Desktop\\Vokabeltrainer\\VocabularyTrainer--master\\VocabularyTrainer--master\\VocabularyTrainer--master\\Vokabeltrainer\\Vokabeltrainer\\Vokabeltrainer\\Vokabeltrainer.csproj": {}
+    "C:\\Users\\Praktikant\\Documents\\GitHub\\VocabularyTrainer-\\Vokabeltrainer\\Vokabeltrainer\\Vokabeltrainer\\Vokabeltrainer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Praktikant\\Desktop\\Vokabeltrainer\\VocabularyTrainer--master\\VocabularyTrainer--master\\VocabularyTrainer--master\\Vokabeltrainer\\Vokabeltrainer\\Vokabeltrainer\\Vokabeltrainer.csproj": {
+    "C:\\Users\\Praktikant\\Documents\\GitHub\\VocabularyTrainer-\\Vokabeltrainer\\Vokabeltrainer\\Vokabeltrainer\\Vokabeltrainer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Praktikant\\Desktop\\Vokabeltrainer\\VocabularyTrainer--master\\VocabularyTrainer--master\\VocabularyTrainer--master\\Vokabeltrainer\\Vokabeltrainer\\Vokabeltrainer\\Vokabeltrainer.csproj",
+        "projectUniqueName": "C:\\Users\\Praktikant\\Documents\\GitHub\\VocabularyTrainer-\\Vokabeltrainer\\Vokabeltrainer\\Vokabeltrainer\\Vokabeltrainer.csproj",
         "projectName": "Vokabeltrainer",
-        "projectPath": "C:\\Users\\Praktikant\\Desktop\\Vokabeltrainer\\VocabularyTrainer--master\\VocabularyTrainer--master\\VocabularyTrainer--master\\Vokabeltrainer\\Vokabeltrainer\\Vokabeltrainer\\Vokabeltrainer.csproj",
+        "projectPath": "C:\\Users\\Praktikant\\Documents\\GitHub\\VocabularyTrainer-\\Vokabeltrainer\\Vokabeltrainer\\Vokabeltrainer\\Vokabeltrainer.csproj",
         "packagesPath": "C:\\Users\\Praktikant\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Praktikant\\Desktop\\Vokabeltrainer\\VocabularyTrainer--master\\VocabularyTrainer--master\\VocabularyTrainer--master\\Vokabeltrainer\\Vokabeltrainer\\Vokabeltrainer\\obj\\",
+        "outputPath": "C:\\Users\\Praktikant\\Documents\\GitHub\\VocabularyTrainer-\\Vokabeltrainer\\Vokabeltrainer\\Vokabeltrainer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Praktikant\\AppData\\Roaming\\NuGet\\NuGet.Config",

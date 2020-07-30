@@ -22,7 +22,7 @@
                 </GridView>
             </ListView.View>
         </ListView>
-        <Button x:Name="abfrage_starten_btn" Click="abfrage_starten_btn_Click" Content="Deutsch + Englisch eingeben" HorizontalAlignment="Center" Margin="0,362,0,0" VerticalAlignment="Top" Height="39" Width="176"/>
+        <Button x:Name="abfrage_starten_btn" Click="abfrage_starten_btn_Click" Content="Deutsch + Englisch eingeben" HorizontalAlignment="Center" Margin="0,362,0,0" VerticalAlignment="Top" Height="39" Width="210"/>
 
     </Grid>
 </Window>

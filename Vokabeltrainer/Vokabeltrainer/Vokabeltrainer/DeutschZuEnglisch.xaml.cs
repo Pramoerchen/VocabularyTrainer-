@@ -22,7 +22,10 @@ namespace Vokabeltrainer
         public string richtige_vokabel;
         public int vorherigeRndZeile;
 
-        Dictionary<string, string> andere_sprache = new Dictionary<string, string>();
+        public Dictionary<string, string> andere_sprache = new Dictionary<string, string>();
+
+        public int maxZeilenAnzahl;
+        public StreamReader SR;
 
 
         public DeutschZuEnglisch()
@@ -30,6 +33,9 @@ namespace Vokabeltrainer
             InitializeComponent();
 
             richtige_vokabel = VokabelnHolen();
+
+            sprache_1_lbl.Content = abfrage_richtung_aussuchen.sprache_1;
+            sprache_2_lbl.Content = abfrage_richtung_aussuchen.sprache_2;
         }
 
         private void Btn_Zurück(object sender, RoutedEventArgs e)
@@ -41,7 +47,7 @@ namespace Vokabeltrainer
 
         private void Btn_Bestätigen(object sender, RoutedEventArgs e)
         {
-            if (txt_Eingabe1.Text == richtige_vokabel)
+            if (txt_Eingabe2.Text == richtige_vokabel)
             {
                 uerberschrift.Content = "Richtig!";
             }
@@ -65,8 +71,22 @@ namespace Vokabeltrainer
             txt_Eingabe1.Clear();
             txt_Eingabe2.Clear();
 
-            StreamReader SR = new StreamReader(@"..\..\..\Wörterbücher\Deutsch+Englisch.txt");
-            int maxZeilenAnzahl = File.ReadLines(@"..\..\..\Wörterbücher\Deutsch+Englisch.txt").Count(); // enthält die zeilen anzahl
+            string pfad_1_abfrage = @"..\..\..\Wörterbücher\" + abfrage_richtung_aussuchen.sprache_1 + "+" + abfrage_richtung_aussuchen.sprache_2 + ".txt";
+            string pfad_2_abfrage = @"..\..\..\Wörterbücher\" + abfrage_richtung_aussuchen.sprache_2 + "+" + abfrage_richtung_aussuchen.sprache_1 + ".txt";
+
+            if (File.Exists(pfad_1_abfrage))
+            {
+                SR = new StreamReader(pfad_1_abfrage);
+                maxZeilenAnzahl = File.ReadLines(pfad_1_abfrage).Count();
+            }
+
+            else
+            {
+                SR = new StreamReader(pfad_2_abfrage);
+                maxZeilenAnzahl = File.ReadLines(pfad_2_abfrage).Count();
+            }
+
+            
             var Rnd = new Random();
             int rndInt = Rnd.Next(0, 2);
             int rndInt2;
@@ -89,8 +109,8 @@ namespace Vokabeltrainer
                 andere_sprache[sprache_1_vokabel] = sprache_2_vokabel;
                 andere_sprache[sprache_2_vokabel] = sprache_1_vokabel;
             }
-                txt_Eingabe2.Text = sprache_1_vokabel;
-                return andere_sprache[sprache_1_vokabel]; 
+                txt_Eingabe1.Text = sprache_2_vokabel;
+                return andere_sprache[sprache_2_vokabel];
 
             
             

@@ -25,6 +25,9 @@ namespace Vokabeltrainer
         public VokabelEingabe()
         {
             InitializeComponent();
+            var beide_sprachen_as_list = sprache_fuer_eingabe_aendern.pfad_1.Replace(@"..\..\..\Wörterbücher\", "").Replace(".txt", "").Split("+");
+            sprache_1_lbl.Content = beide_sprachen_as_list[0];
+            sprache_2_lbl.Content = beide_sprachen_as_list[1];
         }
 
         void vokabel_schreiben()

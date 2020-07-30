@@ -18,7 +18,7 @@
         <RadioButton Content="Deutsch &lt;- Englisch" Grid.Column="1" HorizontalAlignment="Left" Margin="207,292,0,0" VerticalAlignment="Top" x:Name="rdobtn_EngZuDeu" />
         <RadioButton Content="Deutsch &lt;-&gt; Englisch" Grid.Column="1" HorizontalAlignment="Left" Margin="207,331,0,0" VerticalAlignment="Top" x:Name="rdobtn_DeuRndEng" />
         <RadioButton Content="Deutsch -&gt; Englisch" Grid.Column="1" HorizontalAlignment="Left" Margin="207,257,0,0" VerticalAlignment="Top" x:Name="rdobtn_DeuZuEng" />
-        <Button Content="Abfragen" Grid.Column="1" HorizontalAlignment="Left" Margin="231,371,0,0" VerticalAlignment="Top" Height="34" Width="77" Click="event_Abfrage" x:Name="btn_Abrage" Grid.RowSpan="2"/>
+        <Button Content="Abfragen" Grid.Column="1" HorizontalAlignment="Left" Margin="177,360,0,0" VerticalAlignment="Top" Height="34" Width="92" Click="event_Abfrage" x:Name="btn_Abrage" Grid.RowSpan="2"/>
         <ListView x:Name="sprache_1_selector" Margin="0,104,545,64" SelectionChanged="sprache_1_selector_SelectionChanged" Grid.Column="1">
             <ListView.View>
                 <GridView>
@@ -33,6 +33,8 @@
                 </GridView>
             </ListView.View>
         </ListView>
+        <Label x:Name="warnings_lbl" Content="Gebe für diese Abfrage bitte min. 2 Vokabeln ein" Grid.Column="1" HorizontalAlignment="Left" Margin="177,217,0,0" VerticalAlignment="Top" Width="280" Visibility="Hidden" Foreground="Red"/>
+        <Button x:Name="exit_btn" Click="exit_btn_Click" Content="Verlassen" Grid.Column="1" HorizontalAlignment="Left" Margin="330,360,0,0" VerticalAlignment="Top" Height="34" Width="77" Grid.RowSpan="2"/>
 
     </Grid>
 </Window>

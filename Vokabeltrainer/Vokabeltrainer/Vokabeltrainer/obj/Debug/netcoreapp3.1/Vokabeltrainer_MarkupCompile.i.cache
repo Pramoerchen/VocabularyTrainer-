@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Praktikant\Desktop\Vokabeltrainer\VocabularyTrainer--master\VocabularyTrainer--master\VocabularyTrainer--master\Vokabeltrainer\Vokabeltrainer\Vokabeltrainer\obj\Debug\netcoreapp3.1\
+C:\Users\Praktikant\Documents\GitHub\VocabularyTrainer-\Vokabeltrainer\Vokabeltrainer\Vokabeltrainer\obj\Debug\netcoreapp3.1\
 Vokabeltrainer
 none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1
-C:\Users\Praktikant\Desktop\Vokabeltrainer\VocabularyTrainer--master\VocabularyTrainer--master\VocabularyTrainer--master\Vokabeltrainer\Vokabeltrainer\Vokabeltrainer\App.xaml
+C:\Users\Praktikant\Documents\GitHub\VocabularyTrainer-\Vokabeltrainer\Vokabeltrainer\Vokabeltrainer\App.xaml
 7-1931980400
 
 10-1739928754
 1921654412462
 abfrage_richtung_aussuchen.xaml;DeutschZuEnglisch.xaml;EnglischZuDeutsch.xaml;MainWindow.xaml;sprache_fuer_eingabe_aendern.xaml;VokabelEingabe.xaml;VokabelTest.xaml;
 
-False
+True
 
