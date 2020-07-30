@@ -30,6 +30,7 @@ namespace Vokabeltrainer
         public string sprache_aus_datei_name_1;
         public string sprache_aus_datei_name_2;
 
+        public int score = 0;
 
         public EnglischZuDeutsch()
         {
@@ -53,11 +54,15 @@ namespace Vokabeltrainer
             if (txt_Eingabe1.Text == richtige_vokabel)
             {
                 uerberschrift.Content = "Richtig!";
+                uerberschrift.Foreground = new SolidColorBrush(Color.FromRgb(0, 255, 0));
+                score++;
+                score_lbl.Content = "Punkte: " + score;
             }
 
             else
             {
                 uerberschrift.Content = "Leider Falsch!";
+                uerberschrift.Foreground = new SolidColorBrush(Color.FromRgb(255, 0, 0));
             }
 
 
