@@ -25,7 +25,11 @@ namespace Vokabeltrainer
         public Dictionary<string, string> andere_sprache = new Dictionary<string, string>();
         public int maxZeilenAnzahl;
         public StreamReader SR;
+
+        public string sprache_aus_datei_name_1;
+        public string sprache_aus_datei_name_2;
         
+
 
 
 
@@ -66,29 +70,38 @@ namespace Vokabeltrainer
             MainWindow objMainWindow = new MainWindow(); // referenz auf das Fenster VokabelEingabe
             this.Visibility = Visibility.Hidden; //lässt das menü verschwinden
             objMainWindow.Show(); // wechselt zur ins "VokabelEingabe" fenster
+
+
         }
         string VokabelnHolen()
         {
+
             txt_Eingabe1.Clear();
             txt_Eingabe2.Clear();
 
             string pfad_1_abfrage = @"..\..\..\Wörterbücher\" + abfrage_richtung_aussuchen.sprache_1 + "+" + abfrage_richtung_aussuchen.sprache_2 + ".txt";
             string pfad_2_abfrage = @"..\..\..\Wörterbücher\" + abfrage_richtung_aussuchen.sprache_2 + "+" + abfrage_richtung_aussuchen.sprache_1 + ".txt";
 
+            
+            
+
             if (File.Exists(pfad_1_abfrage))
             {
                 SR = new StreamReader(pfad_1_abfrage);
                 maxZeilenAnzahl = File.ReadLines(pfad_1_abfrage).Count();
+                sprache_aus_datei_name_1 = pfad_1_abfrage.Replace(@"..\..\..\Wörterbücher\", "").Split("+")[0];
+                sprache_aus_datei_name_2 = pfad_1_abfrage.Replace(@"..\..\..\Wörterbücher\", "").Split("+")[1];
             }
 
             else
             {
                 SR = new StreamReader(pfad_2_abfrage);
                 maxZeilenAnzahl = File.ReadLines(pfad_2_abfrage).Count();
+                sprache_aus_datei_name_1 = pfad_2_abfrage.Replace(@"..\..\..\Wörterbücher\", "").Split("+")[0];
+                sprache_aus_datei_name_2 = pfad_2_abfrage.Replace(@"..\..\..\Wörterbücher\", "").Split("+")[1];
             }
 
-            
-            
+
             var Rnd = new Random();
             int rndInt = Rnd.Next(0, 2);
             int rndInt2;
@@ -103,14 +116,29 @@ namespace Vokabeltrainer
             string sprache_1_vokabel = ""; // Der Variable muss ein Wert zugeweisen werden, da sonst ein Fehler erscheint
             string sprache_2_vokabel = "";
             string zeile;
-            for (int i = 0; i < rndInt2;i++)
+            if(sprache_aus_datei_name_1 == abfrage_richtung_aussuchen.sprache_1)
             {
-                zeile = SR.ReadLine();
-                sprache_1_vokabel = zeile.Split("/")[0];
-                sprache_2_vokabel = zeile.Split("/")[1];
-                andere_sprache[sprache_1_vokabel] = sprache_2_vokabel;
-                andere_sprache[sprache_2_vokabel] = sprache_1_vokabel;
+                for (int i = 0; i < rndInt2; i++)
+                {
+                    zeile = SR.ReadLine();
+                    sprache_1_vokabel = zeile.Split("/")[0];
+                    sprache_2_vokabel = zeile.Split("/")[1];
+                    andere_sprache[sprache_1_vokabel] = sprache_2_vokabel;
+                    andere_sprache[sprache_2_vokabel] = sprache_1_vokabel;
+                }
             }
+            else
+            {
+                for (int i = 0; i < rndInt2; i++)
+                {
+                    zeile = SR.ReadLine();
+                    sprache_1_vokabel = zeile.Split("/")[1];
+                    sprache_2_vokabel = zeile.Split("/")[0];
+                    andere_sprache[sprache_1_vokabel] = sprache_2_vokabel;
+                    andere_sprache[sprache_2_vokabel] = sprache_1_vokabel;
+                }
+            }
+            
             if (rndInt == 1) // Dann deutsch
             {
 
@@ -129,5 +157,6 @@ namespace Vokabeltrainer
 
             
         }
+
     }
 }

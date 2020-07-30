@@ -6,7 +6,7 @@ Dafür Sorgen, dass 2 Vokabeln nicht direkt hintereinander abgefragt werden. Auc
 1. Deutsches Wort: Apfel; Englisches Wort: (Eingabe)                                                                                    |
 2. Deutsches Wort: (Eingabe); Englisches Wort: Apple                                                                                    |
 =========================================================================================================================================
-Erledigt ✅
+Erledigt ✅ 
 
 
 =========================================================================================================================================
@@ -31,6 +31,7 @@ Falls zu einer "Sprachkombination" noch keine Datei exestiert wird sie erstellt 
 Dazu muss aber auch überprüft werden, dass es noch keine Datei mit umgetauschten Dateinamen gibt. Bsp:
 Wenn die Datei "Deutsch+Englisch" schon exestiert soll keine Datei mit dem Namen "Englisch+Deutsch" angelegt werden
 =========================================================================================================================================
+Erledigt ✅
 
 =========================================================================================================================================
 Statistik hinzufügen

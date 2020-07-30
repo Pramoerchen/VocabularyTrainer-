@@ -52,12 +52,14 @@ namespace Vokabeltrainer
                 warnings_lbl.Visibility = Visibility.Hidden;
                 if (rdobtn_DeuRndEng.IsChecked == true)
                 {
-                    sprache_1 = rdobtn_DeuRndEng.Content.ToString().Split(" <-> ")[0];
-                    sprache_2 = rdobtn_DeuRndEng.Content.ToString().Split(" <-> ")[1];
+                    /*sprache_1 = rdobtn_DeuRndEng.Content.ToString().Split(" <-> ")[0];
+                    sprache_2 = rdobtn_DeuRndEng.Content.ToString().Split(" <-> ")[1];*/
 
                     VokabelTest objVokabelTest = new VokabelTest(); // referenz auf das Fenster VokabelEingabe
                     this.Visibility = Visibility.Hidden; //lässt das menü verschwinden
                     objVokabelTest.Show(); // wechselt VokabelTest ins "VokabelEingabe" fenster
+
+                    btn_Abrage.Content = sprache_2;
                     
                 }
                 else if (rdobtn_DeuZuEng.IsChecked == true) // Falls du dich fragst warum "else if" statt nur "if": Wenn das erste True ist, wird hier nicht mehr geprüft. Das spart Arbeitsspeicher.
@@ -70,8 +72,9 @@ namespace Vokabeltrainer
                 }
                 else if (rdobtn_EngZuDeu.IsChecked == true)
                 {
-                    
-                    
+
+                    /*sprache_1 = rdobtn_DeuRndEng.Content.ToString().Split(" <-> ")[0];
+                    sprache_2 = rdobtn_EngZuDeu.Content.ToString().Split(" <- ")[1];*/
                     EnglischZuDeutsch objEnglischZuDeutsch = new EnglischZuDeutsch(); // referenz auf das Fenster VokabelEingabe
                     this.Visibility = Visibility.Hidden; //lässt das menü verschwinden
                     objEnglischZuDeutsch.Show(); // wechselt VokabelTest ins "VokabelEingabe" fenster
