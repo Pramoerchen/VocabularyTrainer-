@@ -19,7 +19,7 @@ namespace Vokabeltrainer
     /// </summary>
     public partial class abfrage_richtung_aussuchen : Window
     {
-        public List<string> sprachen = new List<string>()
+        public static List<string> sprachen = new List<string>()
         {
             "Französisch", "Spanisch", "Latein" // Sprachen können hier einfach ergänzt werden Deutsch und Englisch sind automatisch dabei
         };

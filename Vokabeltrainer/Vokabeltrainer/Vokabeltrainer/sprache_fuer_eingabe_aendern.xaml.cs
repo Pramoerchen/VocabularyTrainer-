@@ -18,10 +18,8 @@ namespace Vokabeltrainer
     /// </summary>
     public partial class sprache_fuer_eingabe_aendern : Window
     {
-        public List<string> sprachen = new List<string>()
-        {
-            "Französisch", "Spanisch" // Sprachen können hier einfach ergänzt werden Deutsch und Englisch sind automatisch dabei
-        };
+        public List<string> sprachen = abfrage_richtung_aussuchen.sprachen;
+        
 
         
 

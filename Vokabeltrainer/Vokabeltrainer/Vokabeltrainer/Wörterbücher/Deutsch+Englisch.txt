@@ -1,2 +1,2 @@
 banana/Banane
-car/Auto
+apple/Apfel

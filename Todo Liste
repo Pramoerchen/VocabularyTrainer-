@@ -41,5 +41,12 @@ Und einmal eine allgemeine im Hauptmenü mit z.B Eingegebene Vokabeln, wieviel r
 
 
 =========================================================================================================================================
+Man sollte in "abfrage_richtung_aussuchen.xaml" entscheiden können, ob man falsche Vokabeln direkt wiederholen soll, 
+um sich diese besser einzuprägen. Ich glaube mit Checkboxen geht es am besten. 
+Wenn du eine andere Lösung kennst kannst du diese auch nutzen.
+=========================================================================================================================================
+
+
+=========================================================================================================================================
 Weitere Todos/ Wünsche hinzufügen                                                             |
 =========================================================================================================================================

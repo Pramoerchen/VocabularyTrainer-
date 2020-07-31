@@ -49,26 +49,29 @@ namespace Vokabeltrainer
         private void Btn_Bestätigen(object sender, RoutedEventArgs e)
         {
 
-            if (txt_Eingabe1.Text == richtige_vokabel)
+            if (txt_Eingabe1.IsEnabled) // Hier kann man etwas eingeben
             {
-                uerberschrift.Content = "Richtig!";
-                uerberschrift.Foreground = new SolidColorBrush(Color.FromRgb(0, 255, 0));
-                score++;
-                score_lbl.Content = "Punkte: " + score;
+                if (txt_Eingabe1.Text == richtige_vokabel)
+                {
+                    richtig();
+                }
+                else
+                {
+                    falsch();
+                }
             }
 
             else
             {
-                uerberschrift.Content = "Leider Falsch!";
-                uerberschrift.Foreground = new SolidColorBrush(Color.FromRgb(255, 0, 0));
+                if (txt_Eingabe2.Text == richtige_vokabel)
+                {
+                    richtig();
+                }
+                else
+                {
+                    falsch();
+                }
             }
-                
-
-
-
-            
-
-
             richtige_vokabel = VokabelnHolen();
         }
 
@@ -152,6 +155,8 @@ namespace Vokabeltrainer
 
                 
                 txt_Eingabe2.Text = sprache_1_vokabel;
+                txt_Eingabe2.IsEnabled = false;
+                txt_Eingabe1.IsEnabled = true;
                 return andere_sprache[sprache_1_vokabel]; // Weißt du warum diese und
 
             }
@@ -159,10 +164,26 @@ namespace Vokabeltrainer
             {
                 
                 txt_Eingabe1.Text = sprache_2_vokabel;
-                return andere_sprache[sprache_1_vokabel]; // diese Zeile sprach_1_vokabel nutzen??? Wenn ich hier oder oben 2 eintrage ist es falsch!
+                txt_Eingabe1.IsEnabled = false;
+                txt_Eingabe2.IsEnabled = true;
+                return andere_sprache[sprache_2_vokabel]; // diese Zeile sprach_1_vokabel nutzen??? Wenn ich hier oder oben 2 eintrage ist es falsch!
             }
 
             
+        }
+
+        void richtig()
+        {
+            uerberschrift.Content = "Richtig!";
+            uerberschrift.Foreground = new SolidColorBrush(Color.FromRgb(0, 255, 0));
+            score++;
+            score_lbl.Content = "Punkte: " + score;
+        }
+
+        void falsch()
+        {
+            uerberschrift.Content = "Leider Falsch!";
+            uerberschrift.Foreground = new SolidColorBrush(Color.FromRgb(255, 0, 0));
         }
 
     }
