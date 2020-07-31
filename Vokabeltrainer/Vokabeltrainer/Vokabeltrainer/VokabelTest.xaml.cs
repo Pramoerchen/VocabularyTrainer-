@@ -30,7 +30,8 @@ namespace Vokabeltrainer
         public string sprache_aus_datei_name_2;
 
         public int score = 0;
-
+        public float versuche = 0F;
+        string prozent_anzeige_string;
 
 
 
@@ -49,7 +50,8 @@ namespace Vokabeltrainer
         private void Btn_Bestätigen(object sender, RoutedEventArgs e)
         {
 
-            if (txt_Eingabe1.IsEnabled) // Hier kann man etwas eingeben
+            versuche++;
+            if (txt_Eingabe1.IsEnabled) 
             {
                 if (txt_Eingabe1.Text == richtige_vokabel)
                 {
@@ -73,6 +75,14 @@ namespace Vokabeltrainer
                 }
             }
             richtige_vokabel = VokabelnHolen();
+            prozent_anzeige_string = (score / versuche * 100).ToString();
+            if (prozent_anzeige_string.Length > 5)
+            {
+                //prozent_anzeige_string.Remove(Bitte wert eintragen);
+            }
+
+
+            prozent_lbl.Content = prozent_anzeige_string;
         }
 
         private void Btn_Zurück(object sender, RoutedEventArgs e)

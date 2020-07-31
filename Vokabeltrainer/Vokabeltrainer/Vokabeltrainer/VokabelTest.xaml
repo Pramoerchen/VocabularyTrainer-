@@ -9,6 +9,7 @@
     <StackPanel Margin="20,50,20,50">
         <Label x:Name="uerberschrift" HorizontalAlignment="Center" TextBlock.FontSize="20">Vokabel Test</Label>
         <Label x:Name="score_lbl" HorizontalAlignment="Center" TextBlock.FontSize="16">Punkte: 0</Label>
+        <Label x:Name="prozent_lbl" HorizontalAlignment="Center" TextBlock.FontSize="16">0% Richtige Antworten</Label>
         <Label x:Name="sprache_1_lbl" Margin="10,40,10,0">Englisch:</Label>
         <TextBox x:Name="txt_Eingabe1"></TextBox>
         <Label x:Name="sprache_2_lbl" Margin="10,40,10,0">Deutsch:</Label>
