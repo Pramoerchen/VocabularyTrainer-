@@ -126,5 +126,12 @@ namespace Vokabeltrainer
             this.Visibility = Visibility.Hidden; 
             objVokabelEingabe.Show();
         }
+
+        private void zurück_abfrage_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow objMainWindow = new MainWindow();
+            this.Visibility = Visibility.Hidden;
+            objMainWindow.Show();
+        }
     }
 }

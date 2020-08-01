@@ -87,9 +87,9 @@ namespace Vokabeltrainer
 
         private void Btn_Zurück(object sender, RoutedEventArgs e)
         {
-            MainWindow objMainWindow = new MainWindow(); // referenz auf das Fenster VokabelEingabe
-            this.Visibility = Visibility.Hidden; //lässt das menü verschwinden
-            objMainWindow.Show(); // wechselt zur ins "VokabelEingabe" fenster
+            MainWindow objMainWindow = new MainWindow(); 
+            this.Visibility = Visibility.Hidden; 
+            objMainWindow.Show(); 
 
 
         }
